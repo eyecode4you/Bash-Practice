@@ -1,1 +1,1 @@
-# Practice for Bash scripting and Linux System Administration
+# Practice for Bash Scripting and Linux System Administration
