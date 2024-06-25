@@ -11,6 +11,7 @@ gzip file1 # .gz
 bzip2 file2 # .bz2
 xz file3 #.xz
 
+# list files which now have new extensions
 ls -hs file?.*
 
 # Uncompressing files
