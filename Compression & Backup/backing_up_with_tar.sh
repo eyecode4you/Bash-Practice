@@ -4,3 +4,4 @@ cp /var/log/wtmp file2
 cp /var/log/wtmp file3
 cp /var/log/wtmp file4
 
+tar -cvf archive.tar file?
