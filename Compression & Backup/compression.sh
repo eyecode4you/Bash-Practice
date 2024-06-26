@@ -9,7 +9,7 @@ ls -hs file?
 # compression cmds, xz employs the most compression
 gzip file1 # .gz
 bzip2 file2 # .bz2
-xz file3 #.xz
+xz file3 # .xz
 
 # list files which now have new extensions
 ls -hs file?.*
