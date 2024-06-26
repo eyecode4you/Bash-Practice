@@ -4,7 +4,7 @@ cp /var/log/wtmp file2
 cp /var/log/wtmp file3
 cp /var/log/wtmp file4
 
-tar -cvf archive.tar file? # archive copies of all files with tar
+tar -cvf archive.tar file? # archive copies of all files with tar, -c = copy, -v = verbose, -f = specify archive file
 tar -tf archive.tar # list archive contents
 
 rm file?
