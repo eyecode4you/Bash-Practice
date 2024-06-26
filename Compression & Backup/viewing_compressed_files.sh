@@ -8,7 +8,7 @@ bzip2 boot.log
 cp /var/log/boot.log .
 xz boot.log
 
-ls boot.log.*
+ls boot.log.* # we now have .gz, .bz2, and .xz files
 
 zcat boot.log.gz # zcat for .gz files
 bzcat boot.log.bz2 # bzcat for .bz2 files
