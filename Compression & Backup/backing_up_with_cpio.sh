@@ -9,3 +9,8 @@ ls file? | cpio -o > archive.cpio # doesn't modify original files
 
 # reading files within cpio archive
 cpio -itvI archive.cpio
+
+rm file?
+
+# extracting cpio archive (must use --no-absolute-filenames option for relative path to archived file)
+cpio -i --no-absolute-filenames -I archive.cpio
