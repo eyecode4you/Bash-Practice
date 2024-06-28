@@ -10,7 +10,12 @@
 - *__Ctrl d__* to go halway down, *__Ctrl u__* to go halfway up
 
 #### Insert Mode
-- *__i__* brings you to insert mode
+- *__i__* brings you to insert mode, text before cursor
+- *__I__* beginning of line
+- *__a__* text after cursor
+- *__A__* at end of line
+- *__o__* new line below current line
+- *__O__* above current line
 
 #### EX Mode
 - *__:__* brings you to EX mode
