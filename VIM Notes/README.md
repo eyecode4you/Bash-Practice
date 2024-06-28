@@ -3,6 +3,10 @@
 #### Command Mode
 - vi starts in *__command__* mode
 - *__Esc__* brings you back to *__command mode__*
+- *__ZZ__* saves and quits vi
+- *__Arrow Keys & hjkl__* for cursor movement
+- *__Shift $__* for end of line, *__Shift ^__* for start of line
+- *__/__* to search forward, *__?__* to search backward, / and ? after that jumps to next/prev. matches
 
 #### Insert Mode
 - *__i__* brings you to insert mode
