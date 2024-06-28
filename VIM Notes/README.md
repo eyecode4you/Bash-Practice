@@ -7,6 +7,7 @@
 - *__Arrow Keys & hjkl__* for cursor movement
 - *__Shift $__* for end of line, *__Shift ^__* for start of line
 - *__/__* to search forward, *__?__* to search backward, / and ? after that jumps to next/prev. matches
+- *__Ctrl d__* to go halway down, *__Ctrl u__* to go halfway up
 
 #### Insert Mode
 - *__i__* brings you to insert mode
