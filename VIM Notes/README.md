@@ -8,6 +8,11 @@
 - *__Shift $__* for end of line, *__Shift ^__* for start of line
 - *__/__* to search forward, *__?__* to search backward, / and ? after that jumps to next/prev. matches
 - *__Ctrl d__* to go halway down, *__Ctrl u__* to go halfway up
+- *__dw__* deletes current word or to end of current word, *__d2w__* deletes next 2 words etc.
+- *__dd__* deletes current line, *__d2d__* deletes next 2 lines etc.
+- *__Shift d__* deletes to end of current line
+- You can also paste deleted text with *__p__* - after current line or *__Shift p__* - before current line
+- *__y__* copies text, same usage as *__d__*
 
 #### Insert Mode
 - *__i__* brings you to insert mode, text before cursor
