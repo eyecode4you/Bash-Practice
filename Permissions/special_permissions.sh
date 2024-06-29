@@ -4,7 +4,7 @@ ls -l file.txt
 mkdir dir
 ls -ld dir
 
-# SYMBOLIC MODE
+# SYMBOLIC MODE (s for SUID & SGID, t for Sticky Bit) (must have x perm. to set special perms.)
 chmod u+xs file.txt
 ls -l file.txt
 chmod u-sx file.txt
