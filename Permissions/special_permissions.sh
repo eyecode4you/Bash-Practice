@@ -15,4 +15,13 @@ ls -l file.txt
 chmod o+t dir # allow sharing files in dir, only owner can delete files
 ls -ld dir
 
-# OCTAL MODE
+# OCTAL MODE (4=SUID, 2=SGID, 1=Sticky Bit) (Placed to left of 3 octal digits, x perm., combos)
+chmod 4744 file.txt # Set UID
+ls -l file.txt
+chmod 6750 file.txt # SUID & SGID
+ls -l file.txt
+chmod 1755 dir # Sticky Bit
+ls -ld dir
+
+rm file.txt
+rmdir dir
