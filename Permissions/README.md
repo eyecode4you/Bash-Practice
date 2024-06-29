@@ -16,3 +16,10 @@ __File Type Codes__
 - l symbolic link
 - b block device
 - c character device
+
+
+__Permissions__
+- r read
+- w write
+- x execute
+- \- none
