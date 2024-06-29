@@ -8,3 +8,11 @@ With long listing we get file info, e.g. ls -l /etc/shadow
 
 
 For long dir info use ls -ld
+
+
+__File Type Codes__
+- \- file
+- d directory
+- l symbolic link
+- b block device
+- c character device
