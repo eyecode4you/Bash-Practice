@@ -10,4 +10,7 @@ ls -l file1.txt
 sudo chown root file1.txt
 ls -l file1.txt
 
+# change owner & group simultaneously
+sudo chown root:adm file1.txt
+
 rm file1.txt
