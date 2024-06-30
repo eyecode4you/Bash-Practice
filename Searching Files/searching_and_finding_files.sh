@@ -1,5 +1,5 @@
 #!/bin/bash
-# BRE: ^ $ [] * .
+# BRE: ^ - startswith, $ - endswith, [] - range or specified chars, * - any chars zero or more, . - any single char
 grep home /etc/passwd
 grep nologin$ /etc/passwd
 grep ^nobody /etc/passwd
