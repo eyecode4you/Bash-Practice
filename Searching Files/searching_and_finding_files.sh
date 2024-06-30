@@ -1,10 +1,10 @@
 #!/bin/bash
-# BRE: ^ - startswith, $ - endswith, [] - range or specified chars, * - any chars zero or more, . - any single char
+# BRE: ^ -> startswith, $ -> endswith, [] -> range or specified chars, * -> any chars zero or more, . -> any single char
 grep home /etc/passwd
 grep nologin$ /etc/passwd
 grep ^nobody /etc/passwd
 
-# ERE: + ? | ()
+# ERE: + -> single char present one or more times, ? -> zero or one char, | -> either or, () -> grouping expressions
 grep -E "(nologin$|bash$)" /etc/passwd # "" is shell quoting - protects special characters like |
 egrep "(nologin$|bash$)" /etc/passwd # deprecated
 
