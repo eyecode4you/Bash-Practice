@@ -14,7 +14,7 @@ cat newtest.txt
 echo "Appended Content" >> newtest.txt
 cat newtest.txt
 
-# redirect STDERR - /dev/null is a black hole
+# redirect STDERR with 2> or 2>> - /dev/null is a black hole
 cat filenotfound.ghost 2>> newtest.txt
 cat newtest.txt
 
