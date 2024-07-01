@@ -12,3 +12,7 @@ kill 2012 # default kill, sends -15, TERM, SIGTERM
 kill %3 # kill a background job by using % and job ID
 
 killall sleep # kill all sleep processes
+
+sleep 1000& # e.g. PID = 2013
+pgrep -ag 2013 # we can search for ps info using pgrep
+pkill -15 -g 2013 # we can also kill process using pkill
