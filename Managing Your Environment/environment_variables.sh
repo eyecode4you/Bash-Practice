@@ -13,3 +13,6 @@ printenv | less # can also be used
 printenv HOME # printenv can be used to view individual env variables, note: doesn't use $ in front
 
 set | less # also shows env variables
+
+# can view env var paths with ls
+ls $HISTFILE
