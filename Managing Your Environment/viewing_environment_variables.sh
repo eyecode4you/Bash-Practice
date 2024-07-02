@@ -16,3 +16,5 @@ set | less # also shows env variables
 
 # can view env var paths with ls
 ls $HISTFILE
+
+locale # shows all locale-related env vars
