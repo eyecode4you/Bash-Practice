@@ -9,4 +9,4 @@ myecho "This won't work" # as our home dir isn't part of the $PATH var, copying 
 # to add a dir to $PATH
 # PATH = $PATH:[Path of directory to add]
 # e.g. adding home dir to path (not for practical use): PATH = $PATH:/home/USERNAME
-# adding to PATH this way is non-persistant, must use environment file
+# adding to PATH this way is non-persistent, must use environment file
