@@ -8,4 +8,8 @@ echo $EDITOR # often not set by default. Sets the default text editor used by so
 echo $VISUAL # Same. Sets the default full-screen text editor (e.g. vi, nano) used by some system programs.
 
 env | less # shows list of all environment variables
+
 printenv | less # can also be used
+printenv HOME # printenv can be used to view individual env variables, note: doesn't use $ in front
+
+set | less # also shows env variables
