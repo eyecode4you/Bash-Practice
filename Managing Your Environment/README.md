@@ -20,3 +20,6 @@
 
 - $EDITOR: default text editor used for some programs
 - $VISUAL: default full-screen text editor used for system programs
+
+
+- $PS1: controls shell's prompt appearance
