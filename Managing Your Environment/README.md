@@ -24,3 +24,5 @@ Environment variables store info about cmd line session and working environment,
 
 - $PS1: controls shell's prompt appearance
 - $PS2: controls secondary prompt appearance
+
+- $SHLVL: shows level of current shell, 1 = not in a subshell
