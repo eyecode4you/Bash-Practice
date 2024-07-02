@@ -1,5 +1,5 @@
 ## Working with environment variables & paths
-- Environment variables store info about cmd line session and working environment, e.g. $USER
+Environment variables store info about cmd line session and working environment, e.g. $USER
 
 #### Some environment variables to know:
 - $HOSTNAME: name of system
