@@ -23,3 +23,4 @@
 
 
 - $PS1: controls shell's prompt appearance
+- $PS2: controls secondary prompt appearance
