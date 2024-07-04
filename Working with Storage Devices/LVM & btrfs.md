@@ -14,3 +14,14 @@
 /dev/mapper maps physical blocks of a partition to logical blocks in a logical volume
 
 mapper files are softlinks to dm (device mapper) files
+
+## btrfs File System
+- Uses B-Tree data structures
+- Made to handle large files
+- Has integrated RAID functionality
+- Can create Subvolumes (SVs)
+- SV is a subsection of a btrfs parent volume
+- SVs can be mapped separately from other SVs
+- Can implement transparent compression
+- Compression is file-based
+- Supports LZO, ZLIB, and ZSTD compression algorithms
