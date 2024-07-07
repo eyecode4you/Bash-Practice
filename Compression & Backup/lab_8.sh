@@ -22,3 +22,17 @@ xzcat file3.xz
 gunzip file1.gz
 bunzip2 file2.bz2
 unxz file3.xz
+
+# create a tar archive of the copied log files
+tar -cvf log.tar file?
+ls -l log.tar
+
+# see what files are within the tar archive
+tar -tf log.tar
+
+# extract files from tar archive
+tar -xvf log.tar
+
+# create a tarball (compress & archive) of log files
+tar -Jcvf log.tar.xz file?
+ls -l log.tar.xz
