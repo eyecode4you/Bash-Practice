@@ -1,5 +1,4 @@
 #!/bin/bash
-
 # copy some files to work with
 cp /var/log/wtmp file1
 cp /var/log/wtmp file2
@@ -36,3 +35,25 @@ tar -xvf log.tar
 # create a tarball (compress & archive) of log files
 tar -Jcvf log.tar.xz file?
 ls -l log.tar.xz
+
+# extract files from tarball
+tar -Jxvf log.tar.xz
+
+# create cpio archive of copied log files
+ls file? | cpio -ov > log.cpio
+
+# view cpio archive
+cpio -itvI log.cpio
+
+# create new dubdir, move cpio srchive to it, and extract
+mkdir logFiles
+mv log.cpio logFiles
+cd logFiles
+cpio -iv --no-absolute-filenames -I log.cpio
+ls
+
+# cleanup
+cd ..
+rm -rf logFiles
+rm log*
+fm file?.*
