@@ -30,8 +30,20 @@ bash # our eset PS1 var won't carry over
 echo $SHLVL # will increment from prev.
 exit # back to prev. shell level, new prompt returns
 
-# export PS1 into subshell
+# ways of exporting into subshell
+# using export cmd:
 export PS1="NewShellPrompt: "
 bash
 echo $SHLVL
+exit
+
+# Or
+PS1="Totally New Prompt"
+export
+bash
+exit
+
+# Or
+PS1=""; export PS1
+bash
 exit
