@@ -1,7 +1,7 @@
 #!/bin/bash
 # device drivers act as translators between devices so they can interoperate
 # drivers can be found in (will change depending on distro!):
-ls /lib/modules/5.4.0-65-generic/kernel/drivers
+ls /lib/modules/*/kernel/drivers
 
 # lsmod utility shows all current kernel modules
 lsmod
@@ -12,7 +12,7 @@ modinfo joydev # get more info on module, also shows absolute path
 sudo rmmod joydev # rmmod removes single module but not its dependents
 
 # inserting a kernal module, requires absolute dir:
-sudo insmod /lib/modules/5.4.0-65-generic/kernel/drivers/input/joydev.ko # inserts single module but not its dependents
+sudo insmod /lib/modules/*/kernel/drivers/input/joydev.ko # inserts single module but not its dependents
 
 # modprobe is a kernel management utility, better than insmod and rmmod
 sudo modprobe -v dm-mirror # will insert dm-mirror and all its dependencies, doesn't require absolute path
