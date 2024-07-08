@@ -8,3 +8,6 @@ ls -d /media # hot plug devices are auto-mounted here
 
 # udev will check here if no config rules are provided for a device:
 ls /etc/udev/rules.d
+
+# check dbus service
+systemctl status dbus
