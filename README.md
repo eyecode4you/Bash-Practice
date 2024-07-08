@@ -1,1 +1,1 @@
-# Practice for Bash Scripting and Linux System Administration (Roughly LPIC-1)
+# Practice for Bash Scripting and Linux System Administration (LPIC-1)
