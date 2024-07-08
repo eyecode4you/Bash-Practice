@@ -1,1 +1,4 @@
 ## Looking at low-level hardware info
+
+- kernel modules include device drivers, filesystem drivers, network drivers, system calls, and executable loaders
+- A device driver acts as a translator between devices for interoperability
