@@ -16,3 +16,15 @@
 - Supports disks > 2.2TB; unlimited no. of partitions
 - No partition types
 - Copies table to last disk sectors for protection
+
+### Auto-Mounting Filesystems
+Config handled in: /etc/fstab
+- Id fs by: Device path (e.g. /dev/sdb1), UUID (e.g. UUID=g7625-62gug), Label (e.g. LABEL=G-usb)
+- Options are comma-sep
+- Dump: If not 0, use dump util to backup fs
+- Pass: If not 0, use fsck util to check fs by priority
+#### /etc/fstab Options:
+- defaults: async, auto, dev, exec, nouser (user without su cannot mount), rw, suid
+- user: allow a user to mount fs
+- owner: allow an owner to mount fs
+- noauto: prevent fs from auto-mounting
