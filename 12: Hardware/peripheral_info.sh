@@ -8,7 +8,7 @@ lspci -vvv # MOAR!
 # finding specific PCI-connected device info
 lspci | grep SATA
 ls /dev/disk/by-path
-# readlink -f can be used to find whic device is linked to:
+# readlink -f can be used to find which device is linked to:
 readlink -f /dev/disk/by-path/pci-0000\:00\:0d.0-ata-1.0-part1 # points to /dev/[device]
 
 # view USB-connected devices:
