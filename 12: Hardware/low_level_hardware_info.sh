@@ -17,7 +17,7 @@ cat /proc/memdata
 # another pseudo filesystem is sysfs: /sys
 ls /sys/block # info on attached block devices
 
-# e.g. getting a partition's sector size, block size, and * to get size in MB:
+# e.g. getting a partition's sector size, block size, and multiplying to get size in MB:
 cat /sys/block/sda/sda1/size # e.g. 1024000
 lsblk -o NAME,LOG_SEC /dev/sda1 # e.g. 512
 # bc 512 * 1024000 = 524288000
