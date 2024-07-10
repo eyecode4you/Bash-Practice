@@ -8,7 +8,7 @@
 
 ### tune2fs cmd
 - Tune parameters of existing ext filesystems
-- sudo tunefs -l /dev/sda # view
+- view current fs params with: e.g. sudo tunefs -l /dev/sda
 - not all params can be modded after formatting
 - man tune2fs
 
