@@ -16,3 +16,19 @@ Typical Linux system (FHS) has:
 - /usr/bin: User program binaries
 - /usr/sbin: Admin program binaries
 - /usr/local: Local installation program data
+
+### Put on separate filesystems
+- var
+- tmp
+- usr
+- home
+- opt
+- boot
+- usr/local
+
+### Put on same filesystem
+- etc
+- sbin
+- dev
+- bin
+- lib
