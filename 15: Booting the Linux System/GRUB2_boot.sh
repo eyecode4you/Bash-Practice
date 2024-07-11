@@ -1,5 +1,5 @@
 #!/bin/bash
-# Overview of GRUB2 config, update, and install
+# Overview of GRUB2 config & update
 
 # look for grub.cfg
 ls /boot/grub
@@ -41,3 +41,17 @@ ls /etc/grub.d/
     # linux16
 # UEFI Systems start with:
     # linuxefi
+
+# 3: Initial RAM Filesystem Config:
+# Provides initial RAM fs:
+# For BIOS:
+    # initrd
+# For UEFI:
+    # initrdefi
+
+# Updating GRUB2
+# grub-mkconfig > /location/grub.cfg
+# grub-mkconfig -o /location/grub.cfg
+# grub2-mkconfig > /location/grub.cfg
+# grub2-mkconfig -o /location/grub.cfg
+# update-grub (Ubuntu only)
