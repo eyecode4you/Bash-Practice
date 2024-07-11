@@ -21,3 +21,15 @@ cat /etc/default/grub
 
 ls /etc/grub.d/
 # for custom entries to GRUB2 boot menu, modify either 40_custom or 41_custom
+
+# GRUB2 Menu Entry E.g:
+# menuentry 'Ubuntu, with Linux 5.4.0-67-generic'
+    # set root=(hd0, msdos1)
+    # linux /boot/vmlinuz-5.4.0-67generic root=UUID=3b...
+    # initrd /boot/initrd.img-5.4.0-67-generic
+
+# Set Root Config Setting:
+# Sets disk/partition location of OS
+# set root='hd0, msdos1' indicates first disk & first MBR (DOS) partition
+# set root='hd1, gpt1' second disk, first GPT partition
+# set root='hd0,2' first disk, second partition
