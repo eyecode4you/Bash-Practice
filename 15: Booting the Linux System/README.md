@@ -7,3 +7,15 @@
 - Linux kernel prepares
 - Linux kernel performs system initilalization
 - Services start
+
+### Classic Boot
+- BIOS firmware
+- Bootloader is in MBR
+- MBR is on the first sector of the boot drive
+- Chainloading typically used
+
+### Bootloader Programs
+- LILO (deprecated, only supports BIOS)
+- GRUB Legacy
+- GRUB2
+- Systemd Bootloader
