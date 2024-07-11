@@ -36,5 +36,5 @@
 ### Modern System Initialization
 - systemd
 - Starts services in parallel
-- Groups services (units) into targets
+- Groups services (units) into targets instead of using runlevels
 - Uses config files & systemctl for management
