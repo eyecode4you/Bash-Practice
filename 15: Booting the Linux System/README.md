@@ -32,3 +32,9 @@
 - Bootloader is in the Extensible Firmware Interface (EFI) system partition (ESP)
 - ESP is mounted on /boot/efi
 - Check if sys booted via UEFI: ls /sys/firmware/efi
+
+### Modern System Initialization
+- systemd
+- Starts services in parallel
+- Groups services (units) into targets
+- Uses config files & systemctl for management
