@@ -28,8 +28,16 @@ ls /etc/grub.d/
     # linux /boot/vmlinuz-5.4.0-67generic root=UUID=3b...
     # initrd /boot/initrd.img-5.4.0-67-generic
 
-# Set Root Config Setting:
+# 1: Set Root Config Setting:
 # Sets disk/partition location of OS
 # set root='hd0, msdos1' indicates first disk & first MBR (DOS) partition
 # set root='hd1, gpt1' second disk, first GPT partition
 # set root='hd0,2' first disk, second partition
+
+# 2: Location & Options Config:
+# Provides virtual dir location of OS; kernel options for loading
+# BIOS Systems start with:
+    # linux
+    # linux16
+# UEFI Systems start with:
+    # linuxefi
