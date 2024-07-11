@@ -19,3 +19,9 @@
 - GRUB Legacy
 - GRUB2
 - Systemd Bootloader
+
+### Classic System Initialization
+- SysVinit
+- Runlevels 0-6, determines what groups of services are started. 0 is shutdown, 6 is full.
+- Default runlevel set in /etc/inittab
+- Change runlevels with init or telinit
