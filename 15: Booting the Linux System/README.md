@@ -25,3 +25,10 @@
 - Runlevels 0-6, determines what groups of services are started. 0 is shutdown, 6 is full.
 - Default runlevel set in /etc/inittab
 - Change runlevels with init or telinit
+
+### Modern Booting
+- Firmware is UEFI
+- UEFI uses mini-bootloader (boot manager) to config bootloader to use
+- Bootloader is in the Extensible Firmware Interface (EFI) system partition (ESP)
+- ESP is mounted on /boot/efi
+- Check if sys booted via UEFI: ls /sys/firmware/efi
