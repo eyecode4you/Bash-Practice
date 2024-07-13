@@ -8,6 +8,9 @@ sudo apt-get update
 # install or update a package, e.g. procinfo
 sudo apt-get install procinfo
 
+# Update all packages on sys without checking dependencies
+sudo apt-get upgrade
+
 # remove a package
 sudo apt-get remove procinfo
 
