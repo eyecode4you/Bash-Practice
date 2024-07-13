@@ -7,7 +7,7 @@ sudo runlevel # 1st no.: Prev. runlevel (N for new boot), 2nd no.: Current runle
 
 # Changing runlevels
 sudo init 3 # runlevel 3, no GUI
-telinit 5
+telinit 5 # telinit cmd equivalent to init cmd
 
 # View status & manage services
 service syslog status # service [name] [start, stop, status]
