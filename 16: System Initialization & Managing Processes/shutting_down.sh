@@ -8,3 +8,14 @@ systemctl is-system-running # view sys status, degraded means not all needed ser
 # halt cmd equivalent to shutdown --halt
 # poweroff cmd equivalent to shutdown -p
 # reboot cmd shuts down and restarts system
+
+which halt
+ls -l /usr/sbin/halt
+ls -l /usr/sbin/poweroff
+ls -l /usr/sbin/reboot
+ls -l /usr/sbin/shutdown
+# these are all soft links to ../bin/systemctl
+
+# systemd-style shutdown
+        # Jump to a shutdown target (poweroff, halt, reboot):
+        # systemctl isolate poweroff
