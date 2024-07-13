@@ -26,5 +26,5 @@ ls -l /usr/sbin/shutdown
         # ACPI daemon (acpid) sends signal to ACPI hardware
         # System shutdown trigger these signals
 
-wall # enter a wall message
+wall # enter a wall message to tty users
 mesg # see if messages are on
