@@ -22,4 +22,4 @@ systemctl cat syslog.service # shows info about service and its config
 # systemd unit file locations
 ls /etc/systemd/system
 ls /run/systemd
-ls /usr/lib/systemd
+ls /usr/lib/systemd # can contain customized systemd unit files that override the other locations
