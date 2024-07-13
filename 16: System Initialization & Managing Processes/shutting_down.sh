@@ -5,6 +5,7 @@ systemctl is-system-running # view sys status, degraded means not all needed ser
 # shutdown [options] [time] [message]
     # time format: +minutes, minutes, hh:mm
     # processes are stopped, CPU halted, hardware powered off
+    # shutdown +5 "Hi guys, system is shutting down in 5 mins!"
 # halt cmd equivalent to shutdown --halt
 # poweroff cmd equivalent to shutdown -p
 # reboot cmd shuts down and restarts system
@@ -24,3 +25,6 @@ ls -l /usr/sbin/shutdown
         # Advanced Configuration & Power Interface (ACPI) chipsets require use of special ACPI signals to shut down
         # ACPI daemon (acpid) sends signal to ACPI hardware
         # System shutdown trigger these signals
+
+wall # enter a wall message
+mesg # see if messages are on
