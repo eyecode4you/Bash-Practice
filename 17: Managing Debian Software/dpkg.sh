@@ -1,4 +1,5 @@
 #!/bin/bash
+# dpkg does not download from a repo, package file must be on local system to install!
 # Package structure: 
 # [name]_[version]-[release]_[arch].deb e.g. gimp_2.8.22-1_amd64.deb
 
