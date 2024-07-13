@@ -19,3 +19,8 @@ ls -l /usr/sbin/shutdown
 # systemd-style shutdown
         # Jump to a shutdown target (poweroff, halt, reboot):
         # systemctl isolate poweroff
+
+# Signal ACPI Hardware
+        # Advanced Configuration & Power Interface (ACPI) chipsets require use of special ACPI signals to shut down
+        # ACPI daemon (acpid) sends signal to ACPI hardware
+        # System shutdown trigger these signals
