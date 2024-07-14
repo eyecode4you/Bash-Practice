@@ -23,7 +23,7 @@ rpm -i iotop-0.6-4.el7.noarch.rpm
 rpm -U iotop-0.6-4.el7.noarch.rpm
 
 # uninstall
-rpm -e iotop
+rpm -e iotop # e for --erase
 
 # verify a package
 rpm -V iotop # no response means ok
