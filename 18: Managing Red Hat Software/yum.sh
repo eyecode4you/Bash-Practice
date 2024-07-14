@@ -16,3 +16,18 @@ yum clean all
 # update a package
 yum update iotop
 yum update # update all packages
+
+# uninstall a package
+yum remove iptraf-ng # can also use yum erase cmd
+
+# get package info
+yum info iotop
+
+# check dependencies
+yum deplist iotop
+
+# check from what package a file comes from
+yum provides /bin/top
+
+# search for a package
+yum search iptraf-ng # matches based on pattern
