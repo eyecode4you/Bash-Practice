@@ -4,3 +4,4 @@
 - Verifying packages
 - Getting package info
 - Extracting files from a package
+- rpm, yum, and zypper
