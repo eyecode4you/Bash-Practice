@@ -14,7 +14,7 @@ sudo zypper install iotop
 
 # check if package is installed
 sudo zypper search -i iotop # i+ indicates it's installed
-sudo zypper what-provides /usr/sbin/iotop
+sudo zypper what-provides /usr/sbin/iotop # what package provides a file
 
 # update a package
 sudo zypper update iotop
