@@ -1,8 +1,9 @@
-## Managing Shared Libraries
+## Managing Shared Libraries (DLLs)
 ### What are libraries?
 - stored in:
 - /lib & /lib64
 - /usr/lib & /usr/libexec
+- ls -F /lib
 - libraries are shared program code
 
 ### Library general naming guidelines
