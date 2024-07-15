@@ -22,3 +22,4 @@
 - Automates instance creation with YAML
 - Can customize instances from a VM template
 - Works with many CSPs, AWS and Azure
+- ssh-keygen & ssh-copy-id utilities can create secure ssh tunnel to guest instances
