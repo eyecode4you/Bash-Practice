@@ -16,3 +16,9 @@
 - Use Container Engine instead of Hypervisor
 - Shares host OS
 - Copies only libraries & binaries needed to run a specific app/app stack
+
+## cloud-init Utility
+- Available from cloud-init package
+- Automates instance creation with YAML
+- Can customize instances from a VM template
+- Works with many CSPs, AWS and Azure
