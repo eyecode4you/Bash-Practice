@@ -5,6 +5,7 @@
 # lib cache builder is auto-run by package managers when installing packages
 # manually view or build library cache
 ldconfig -v
+ldconfig -vN # view without rebuilding lib cache
 
 # when developing your own libraries, you need to use ldconfig to rebuild lib cache - 
 # before this, you need to modify the library path env var
