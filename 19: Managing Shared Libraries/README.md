@@ -8,4 +8,4 @@
 - e.g. libsystemd-shared-237.so
 
 ### Library env var:
-$LD_LIBRARY_PATH
+$LD_LIBRARY_PATH (typically only set if you're developing your own libraries)
