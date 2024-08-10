@@ -14,7 +14,7 @@ firstVar="hello"
 echo
 echo "Do both vars have content?"
 #
-if [] && []
+if [ -n "$firstVar" ] && [ -n "$secondVar" ] # -n tests if there's content in a string
    then
         echo "Both have content"
         echo "They are set to: "$firstVar" "$secondVar
