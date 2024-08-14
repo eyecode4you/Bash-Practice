@@ -40,4 +40,3 @@ E.g. newUserName:x:1001:1000:New User Name:/home/newUserName:/bin/bash
 - usermod [option] [data] [userName]
 - e.g. usermod -c "New User Name" newUserName (modifying the comment field)
 - To delete, use userdel -r [userName] cmd
-
