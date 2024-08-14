@@ -35,3 +35,9 @@ E.g. newUserName:x:1001:1000:New User Name:/home/newUserName:/bin/bash
 5. Comment Field (Usually contains full name)
 6. Home dir
 7. Account shell (/bin/nologin or /bin/false if not allowed to login)
+
+### Modifying User Accounts
+- usermod [option] [data] [userName]
+- e.g. usermod -c "New User Name" newUserName (modifying the comment field)
+- To delete, use userdel -r [userName] cmd
+
