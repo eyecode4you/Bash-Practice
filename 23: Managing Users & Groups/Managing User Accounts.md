@@ -21,3 +21,17 @@ Creating and modifying user accounts require su privileges.
 - /etc/passwd (contains account info)
 - /etc/shadow (contains account password info)
 - /etc/group (contains group info)
+
+### Searching User Account Info in passwd
+- grep ^newUserName /etc/passwd
+- getent passwd newUserName (search the passwd database)
+
+#### Fields in /etc/passwd Records
+E.g. newUserName:x:1001:1000:New User Name:/home/newUserName:/bin/bash
+1. Username
+2. Password (x if stored in /etc/shadow)
+3. UID
+4. GID
+5. Comment Field (Usually contains full name)
+6. Home dir
+7. Account shell (/bin/nologin or /bin/false if not allowed to login)
