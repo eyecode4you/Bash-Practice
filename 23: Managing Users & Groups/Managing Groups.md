@@ -18,3 +18,14 @@
 ### Adding a New Group
 - sudo groupadd newGroup
 - verify with: getent group newGroup
+
+#### Adding a User to a Group
+- sudo usermod -aG newGroup userName
+- verify with: sudo groups userName
+
+#### Modifying Groups
+Change a group's name (maintains user memberships):
+- sudo groupmod -n newName oldname
+
+#### Deleting a Group
+- sudo groupdel newGroup
