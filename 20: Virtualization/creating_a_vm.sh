@@ -1,7 +1,7 @@
 #!/bin/bash
 # Before Creating a VM:
 # Research host system's BIOS for virtualization support
-# Check host system resources
+# Check host system resources:
   # Enough processing to support guest VMs - top
   # Available RAM - free
   # Free disk space available - du
