@@ -56,4 +56,4 @@ ls
 cd ..
 rm -rf logFiles
 rm log*
-fm file?.*
+rm file?.*
